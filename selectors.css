@@ -16,16 +16,16 @@ a span.disabled {
 .active {
     color: yellow;
 }
-.red-child {
+div.parent div div:first-child  {
     color: red;
 }
-.blue-child {
+div.parent div div:nth-child(3) {
     color: blue;
 }
-.red-child + h4 {
+div.parent div > h4:first-of-type {
     background-color: red;
 }
-.blue-child + h4 {
+div.parent div > h4:last-of-type {
     background-color: blue;
 }
 .grandparent > h4 {
@@ -34,4 +34,8 @@ a span.disabled {
 }
 input {
     height: 25px;
+}
+.promo {
+    font-weight: bolder;
+    color: gold;
 }
